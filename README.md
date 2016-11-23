@@ -15,6 +15,7 @@ Kibana 4.3+
 ```$ bin/kibana plugin -i tagcloud -u https://github.com/stormpython/tagcloud/archive/master.zip```
 
 Install from local file (has to be a tar.gz file)
+
 ```$ bin/kibana plugin -i tagcloud --url file:///path_to_file/tagcloud.tar.gz```
 
 
