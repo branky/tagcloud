@@ -14,6 +14,10 @@ Kibana 4.3+
 
 ```$ bin/kibana plugin -i tagcloud -u https://github.com/stormpython/tagcloud/archive/master.zip```
 
+Install from local file (has to be a tar.gz file)
+```$ bin/kibana plugin -i tagcloud --url file:///path_to_file/tagcloud.tar.gz```
+
+
 ### Disclosure
 This repo is in its early stages. There is an outstanding [bug](https://github.com/stormpython/kibana-tag-cloud-plugin/issues/1) that needs to be fixed. In addition, please note d3-cloud's warning regarding how word clouds are rendered.
 
